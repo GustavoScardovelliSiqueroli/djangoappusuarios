@@ -1,5 +1,8 @@
+{% extends 'usuarios/base.html' %}
+{% block conteudo %}
+<h1>Usuários cadastrados:</h1>
 <div class="container">
-    <table>
+    <table class="table table-bordered table-striped">
         <tr>
             <th>ID</th>
             <th>Nome</th>
@@ -14,3 +17,4 @@
         {% endfor %}
     </table>
 </div>
+{% endblock %}
